@@ -14,8 +14,6 @@ c1 = np.sin(2*np.pi*freq*cnum + 4/3*np.pi)
 
 fig, ax = plt.subplots()
 ax.plot(anum, a1)
-fig, bx = plt.subplots()
 ax.plot(bnum, b1)
-fig, cx = plt.subplots()
 ax.plot(cnum, c1)
 plt.show()
